@@ -1,0 +1,15 @@
+@import url('~normalize.css/normalize.css');
+@import url("../../node_modules/bootstrap/dist/css/bootstrap.css");
+* {
+  box-sizing: border-box;
+}
+
+/* TODO */
+.container{
+  display:flex;
+  background-color: rgb(255, 246, 127);
+  border-radius: 10px;
+  justify-content: center;
+  padding:10px;
+  margin-top:40%;
+}
