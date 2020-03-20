@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('~normalize.css/normalize.css');
 @import url("../../node_modules/bootstrap/dist/css/bootstrap.css");
 * {
@@ -12,4 +13,20 @@
   justify-content: center;
   padding:10px;
   margin-top:40%;
+=======
+@import url('~normalize.css/normalize.css');
+@import url("../../node_modules/bootstrap/dist/css/bootstrap.css");
+* {
+  box-sizing: border-box;
+}
+
+/* TODO */
+.container{
+  display:flex;
+  background-color: rgb(255, 246, 127);
+  border-radius: 10px;
+  justify-content: center;
+  padding:10px;
+  margin-top:40%;
+>>>>>>> 949356aac301bf7e4add60445cbb3858102ca46b
 }
